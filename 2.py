@@ -12,4 +12,4 @@ else:
     exit()
 num_people = int(input('How many people to split the bill? '))
 
-print('Each person should pay: ', bill_total * tip_percentage/num_people)
+print('Each person should pay: ', round(bill_total * tip_percentage/num_people, 2))
